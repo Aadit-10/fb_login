@@ -1,0 +1,131 @@
+.header{
+    width: 100%;
+    background: #3b5998;
+    height: 90px;
+    
+}
+.logo{
+    padding-top: 46px;
+    width: 50%;
+    float: left;
+}
+
+.login{
+    width: 50%;
+    float: left;
+    padding-top: 21px;
+
+}
+
+
+.logo-text{
+    color: #fff;
+    font-size: 35px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 150px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.login-label{
+    color: #fff;
+    font-size: 11px;
+}
+.login-forget{
+    color: blue;
+    font-size: 11px;
+    padding-top: 7px;
+}
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.login-control{
+    margin-left: 115px;
+
+}
+.logb{
+    background: #4267b2;
+    color: #fff;
+    border: 1px solid;
+    border-radius: 4px ;
+    border-color: #29487d;
+    height: 20px;
+    cursor: pointer;
+} 
+.logb:hover{
+    background: red;
+}
+.left-sec{
+    width: 50%;
+    float: left;
+}
+.right-sec{
+    width: 50%;
+    float: left;
+}
+.main-body{
+    background: linear-gradient(white,#d3d8e8);
+    width: 100%;
+    height: 1000px;
+}
+.para{
+    padding-left: 100px;
+    padding-top: 34px;
+    font-size: 27px;
+    font-weight: bold;
+}
+.account{
+    padding-left: 60px;
+}
+.para2{
+    padding-left: 10px;
+    font-size: 17px;
+}
+.name{
+    margin-left: 70px;
+}
+.name1{
+    height: 25px;
+    width: 166px;
+}
+.mobile{
+    height: 25px;
+    margin-left: 70px;
+    width: 343px;
+}
+.bir{
+    opacity: 41%;
+    margin-left: 70px;
+}
+.day{
+    margin-left: 70px;
+    float: left;
+}
+.Month{
+    margin-left: 7px;
+    float: left;
+}
+.Year{
+    margin-left: 7px;
+    float: left;
+}
+
+.gender{
+    margin-left: 70px;
+
+}
+.adv{
+    margin-left: 70px;
+    font-size: 11px;
+}
+.button{
+    margin-left: 193px;
+    color: #fff;
+    background-color: green;
+    border-radius: 5px;
+    border: 2px;
+    border-color: #4267b2;
+    width: 109px;
+    height: 31px;
+}

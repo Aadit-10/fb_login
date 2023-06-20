@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FaceBook</title>
+    <link rel="stylesheet" href="fb.css" type="text/css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <a class="logo-text" href="fb.html">facebook</a>
+
+            </div>
+            <div class="login"> 
+               <form action=""class="login-control">
+                <table >
+                    <tr>
+                        <td class="login-label"><label for="" >Email or Mobile</label></td> 
+                        <td class="login-label"><label for="">Password</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="email" placeholder="Email or Mobile"></td>
+                        <td><input type="password"  placeholder="Password"></td> 
+                        <td><input class="logb" type="submit" name="" id="" value="Login"> </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td  class="login-forget">Forgott password??</td>
+                    </tr>
+                </table>
+               </form>
+
+            </div>
+
+        </div>
+        <div class="main-body">
+            <div class="left-sec">
+                <p class="para"> Facebook helps you to connect and share with<br> people in your life</p>
+            </div>
+            <div class="right-sec">
+                <div class="account">
+                    <h1>Create an Account</h1>
+                    <div class="para2"><p>Its easy and quick</p></div>
+                </div>  
+                
+                <form action="" id="signup">
+                    <input name="fname" class="name name1" type="text" placeholder="Firstname" >
+                    <input name="sname" class="name1" type="text" name="" placeholder="Surname"><br><br>
+                    <input class=" mobile" type="number" name="" placeholder="Mobile Number"><br><br>
+                    <input type="password" class="mobile" placeholder="Password" name="pass" id="pass" onchange="CheckPassword()">
+                </form>
+                <h4 class="bir">Birthday</h4>
+                <div>
+                    <select name="" id="" class="day">
+                        <option value=""> Day</option>
+                        <option value="1">1</option>
+                    </select>
+                </div>
+                <div>
+                    <select name="" id="" class="Month">
+                        <option value="">Month</option>
+                        <option value="">jan</option>
+                    </select>
+                </div>
+                <div>
+                    <select name="" id="" class="Year">
+                        <option value="">Year</option>
+                        <option value="">1990</option>
+                    </select>
+                </div><br> 
+                <h4 class="bir">Gender</h4>
+                <div class="gender">
+                    <form action="" >
+                        <input type="radio" name="gender">
+                        <label for="">Male</label>
+                        <input type="radio" name="gender">
+                        <label for="">female</label>
+                        <input type="radio" name="gender">
+                        <label for="">Custom</label>
+                    </form><br>
+                </div>
+                <p class="adv">By clicking Sign Up, you agree to our Terms, <br>Privacy Policy and Cookies Policy. 
+                    You may receive SMS notifications from us<br> and can opt out at any time</p><br>
+                    <button class="button"> SignUp</button>
+
+            </div>
+
+        </div>
+
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous">    
+</script>  
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>
+<script src="script.js"></script>
+</html>
+
+ 
